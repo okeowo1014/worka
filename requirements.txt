@@ -5,3 +5,4 @@ djangorestframework~=3.13.1
 geopy~=2.2.0
 asgiref~=3.5.0
 channels~=3.0.4
+dj-config-url~=0.1.1

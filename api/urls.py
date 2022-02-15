@@ -8,7 +8,8 @@ from .views import index, checkauth, add_work_experience, view_employeeprofile, 
     CustomLogin, get_positions, get_industries, get_posted_jobs, job_application_list, create_shortlist, fetch_jobs, \
     get_relative_job_tags, company_logo, get_notifications, cv_preview, search_jobs, profile_preview, get_nearest_job, \
     get_my_interview, get_hot_alert, profile_details, employer_details, like_job, dislike_job, \
-    filter_jobs, set_update_notify, set_newsletter_notify, set_email_notify, set_login_notify, send_employment_request
+    filter_jobs, set_update_notify, set_newsletter_notify, set_email_notify, set_login_notify, send_employment_request, \
+    notification_settings
 
 app_name = 'api'
 urlpatterns = [
@@ -62,6 +63,7 @@ urlpatterns = [
     path('dislike/<str:jobid>', dislike_job),
     path('fetch_notifications/', get_notifications),
     path('get_my_interview/', get_my_interview),
+    path('notification_settings/', notification_settings),
     path('get_hot_alert/', get_hot_alert),
     path('set_newsletter_notify/<str:action>', set_newsletter_notify),
     path('set_login_notify/<str:action>', set_login_notify),

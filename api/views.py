@@ -33,7 +33,7 @@ from api.serializers import SkillsSerializer, WESerializer, EmployeeProfileSeria
 from automator.views import DefaultEmployeeSettings, DefaultEmployerSettings
 from chat.views import CreateMessageChannel
 from notifier.serializers import EmployeeNotificationSerializer, EmployerNotificationSerializer, \
-    HotEmployeeAlertSerializer
+    HotEmployeeAlertSerializer, UserNotificationSettingsSerializer
 from notifier.views import EmailNotifier, jobapplynotifier, employee_notifications, employer_notifications, \
     jobappliednotifier
 from interview.models import Interviews, EmploymentRequest
@@ -983,3 +983,10 @@ def close_job(request, job_id):
             return Response('closed', status=status.HTTP_200_OK)
     else:
         return Response('error', status=status.HTTP_400_BAD_REQUEST)
+
+
+@api_view(['GET'])
+@permission_classes([IsAuthenticated, IsEmployer])
+def notification_settings(request):
+    serializer = UserNotificationSettingsSerializer(request.user, many=False)
+    return Response(serializer.data, status=status.HTTP_200_OK)

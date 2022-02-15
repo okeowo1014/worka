@@ -140,7 +140,6 @@ def employer_interview_notice(employer, fullname, job_title):
         EmailNotifier(employer.company_email).employer_interview_submitted(fullname, job_title)
 
 
-
 def employee_interview_notice(employee, job_title, company):
     title = "your Interview answers has been submitted"
     message = """
@@ -148,4 +147,3 @@ def employee_interview_notice(employee, job_title, company):
         We wish you best of luck!!!""".format(job_title, company)
     DirectEmployeeNotifier.objects.create(employee=employee, title=title, message=message)
     EmailNotifier(employee.user.email).employee_interview_submitted(employee.fullname, company)
-
