@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="078f08b8-edaa-4989-b6f4-5bc7652eace0" name="Changes" comment="my second commit">
+    <list default="true" id="078f08b8-edaa-4989-b6f4-5bc7652eace0" name="Changes" comment="add secret key">
       <change beforePath="$PROJECT_DIR$/worka" beforeDir="false" afterPath="$PROJECT_DIR$/worka" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/worka/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/worka/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1644943772817</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add debug settings">
+      <created>1644943918666</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1644943918666</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -160,7 +166,9 @@
     </ignored-roots>
     <MESSAGE value="my first commit" />
     <MESSAGE value="my second commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="my second commit" />
+    <MESSAGE value="add debug settings" />
+    <MESSAGE value="add secret key" />
+    <option name="LAST_COMMIT_MESSAGE" value="add secret key" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
