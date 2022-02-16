@@ -78,7 +78,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'worka.wsgi.application'
-ASGI_APPLICATION = 'worka.asgi.application'
+ASGI_APPLICATION = 'worka.routing.application'
 # CHANNEL_LAYERS = {
 #     "default": {
 #         "BACKEND": "channels_redis.core.RedisChannelLayer",
