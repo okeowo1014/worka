@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="078f08b8-edaa-4989-b6f4-5bc7652eace0" name="Changes" comment="change pocfile">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings/heroku.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings/heroku.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/worka" beforeDir="false" afterPath="$PROJECT_DIR$/worka" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -253,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645002337842</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="change pocfile">
+      <created>1645003266243</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1645003266243</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -307,7 +311,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/worka/settings.py</url>
+          <url>file://$PROJECT_DIR$/worka/settingss.py</url>
           <line>88</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
